@@ -1,0 +1,20 @@
+
+<p align="right"><%= link_to "Back", index_page_path(session[:user_id]) %>|<%= link_to "Log out", :controller => "products", :action => 'logout' %></p>
+<h1>UserName:<%= @user.name %><h1>
+<p>Email:<%= @user.email %></p>
+<p>User created at:<%= @user.created_at %></p>
+<h3>Your Products Information</h3>
+<table id=customers style="width:1000px;">
+<tr>
+   <th colspan="1"> Product Title </th>
+   <th colspan="2" align="center"> Product Description </th>
+</tr>
+<% @products.each do |product| %>
+
+</tr>
+  <td width="20%"> <%= product.title %> </td>
+  <td width="70%"><%= product.p_information %></td>		
+</tr>
+
+<% end %>
+</table>

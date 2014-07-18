@@ -1,0 +1,76 @@
+<% @page_title = "Create Order" %>
+
+<script type="text/javascript">
+
+	function sss()
+	{
+      	document.getElementById("customers1").style.display = 'none';
+      	document.getElementById("customers2").style.display = 'block';
+      	
+
+	}
+	function ss()
+	{
+		document.getElementById("customers1").style.display = 'block';
+		document.getElementById("customers2").style.display = 'none';
+	}
+	function ddd(xx)
+	{
+
+		document.getElementById("order_adress").innerHTML=xx;
+	}
+
+</script>
+
+<% if @order.errors.any? %>
+    <h2>Errors:</h2>
+    <ul>
+     <% @order.errors.full_messages.each do |message|%>
+      <li><%= message%> </li> 
+      <%end%>
+    </ul>
+<% end %>
+
+<div class="Order_Form">
+
+<%= form_for  :order, :url => {:controller => 'orders', :action => 'insert'}  do |f| %>
+
+<p> PhoneNo:</br> <%= f.text_field :ph_no %> </p>
+<p> Your Order:</p>
+<p>
+   Store<input type="radio" name="group3" value="sss" onclick="sss()" checked="checked">
+   Shipping Address<input type="radio" name="group3" value="ss" onclick="ss()" >
+</p>
+
+<table style="display:none;width:200px" id="customers1" >
+<tr ><td colspan=2>Previous Shipping Addreses</td></tr> 
+<% if @address.size!=0%>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<% @address.each do |ess| %>
+<tr>
+<td><%=ess.adress%></td>
+<td><input type="radio" name="group1" onclick="ddd('<%=ess.adress%>')"></td>
+</tr>
+<%end%>
+<%end%>
+</table>
+
+<table  id="customers2" style="width:200px">  
+<tr>
+<td>Delhi Store</td>
+<td><input type="radio" name="group2"  onclick="ddd('delhi Store')"></td>
+</tr>
+<tr>
+<td>Chennai Store</td>
+<td><input type="radio" name="group2" onclick="ddd('chennai Store')"></td>
+</tr>
+</table>
+
+<p> Shipping Address:<br/> <%= f.text_area :adress %> </p>
+<p> <%= f.submit "Commit Your Order"%></p>
+<% end %>
+</div>
+
