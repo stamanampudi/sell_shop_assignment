@@ -37633,3 +37633,2480 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 11:52:15
 
 
 Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 11:52:15 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-18 04:59:56 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/railties-4.1.4/lib/rails/templates/rails/welcome/index.html.erb (1.4ms)
+Completed 200 OK in 13ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-07-18 05:00:01 -0500
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 53ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:00:01 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:00:01 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:00:01 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:00:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:00:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:00:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:00:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:00:01 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:00:01 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:00:01 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:00:01 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:00:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:00:01 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:00:01 -0500
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("created_at", "p_information", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2014-07-18 10:05:33.665778"], ["p_information", "android environment,5 inches"], ["title", "Galaxy s5"], ["updated_at", "2014-07-18 10:05:33.665778"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "p_information", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-07-18 10:06:15.271532"], ["p_information", "ios,6 inches flat screen"], ["title", "Iphone5s"], ["updated_at", "2014-07-18 10:06:15.271532"]]
+  [1m[35m (2.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "p_information", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2014-07-18 10:06:48.460871"], ["p_information", "Android OS,6 inches"], ["title", "Micromax"], ["updated_at", "2014-07-18 10:06:48.460871"]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "products" ("created_at", "p_information", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-07-18 10:07:08.244077"], ["p_information", "Android OS,5 inches screen"], ["title", "LG"], ["updated_at", "2014-07-18 10:07:08.244077"]]
+  [1m[35m (2.5ms)[0m  commit transaction
+
+
+Started GET "/login/new" for 127.0.0.1 at 2014-07-18 05:07:14 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 28ms (Views: 21.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-07-18 05:08:34 -0500
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/authenticate" for 127.0.0.1 at 2014-07-18 05:08:41 -0500
+Processing by UsersController#authenticate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZeTIdQ3gjQHVrRrrDVjm6fMjfkIMTSkA7v70mC6XXqg=", "username_or_email"=>"junkee", "login_password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'junkee' LIMIT 1
+Redirected to http://localhost:3000/login/21/index
+Completed 302 Found in 7ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login/21/index" for 127.0.0.1 at 2014-07-18 05:08:41 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 18ms (Views: 15.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:08:41 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:08:41 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:08:41 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:08:41 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:08:41 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:08:41 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:08:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:08:41 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:08:41 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:08:41 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:08:41 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:08:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:08:41 -0500
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 6]]
+  [1m[35m (2.0ms)[0m  commit transaction
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 7]]
+  [1m[35m (2.5ms)[0m  commit transaction
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 8]]
+  [1m[35m (2.5ms)[0m  commit transaction
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 5]]
+  [1m[35m (2.5ms)[0m  commit transaction
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+
+
+Started GET "/login/21/index" for 127.0.0.1 at 2014-07-18 05:10:07 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:10:08 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:10:08 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:10:08 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:10:08 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:10:08 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:10:08 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:10:08 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:10:08 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:10:08 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:10:08 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:10:08 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:10:08 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:10:08 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:10:08 -0500
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-07-18 05:10:14 -0500
+Processing by ProductsController#profile as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 21]]
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT "orders"."p_id" FROM "orders"  WHERE "orders"."user_id" = 21
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"  WHERE "products"."id" IN (1, 2, 3)[0m
+  Rendered products/profile.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 40ms (Views: 30.5ms | ActiveRecord: 0.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 21]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 21]]
+  [1m[35m (2.5ms)[0m  commit transaction
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-07-18 05:10:57 -0500
+Processing by ProductsController#profile as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 21]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=21):
+  app/controllers/products_controller.rb:8:in `profile'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.4ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-07-18 05:11:03 -0500
+Processing by ProductsController#profile as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 21]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=21):
+  app/controllers/products_controller.rb:8:in `profile'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-07-18 05:11:03 -0500
+Processing by ProductsController#profile as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 21]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=21):
+  app/controllers/products_controller.rb:8:in `profile'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.4ms)
+
+
+Started GET "/login/21/index" for 127.0.0.1 at 2014-07-18 05:11:06 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:11:06 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:11:06 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:11:06 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:11:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:11:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:06 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:06 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:06 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:06 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:06 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:11:06 -0500
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-07-18 05:11:09 -0500
+Processing by ProductsController#profile as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 21]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=21):
+  app/controllers/products_controller.rb:8:in `profile'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-07-18 05:11:09 -0500
+Processing by ProductsController#profile as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 21]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=21):
+  app/controllers/products_controller.rb:8:in `profile'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.6ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-07-18 05:11:21 -0500
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:11:21 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:11:21 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:11:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:11:21 -0500
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:11:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:21 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:21 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:21 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:21 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:21 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:11:21 -0500
+
+
+Started POST "/authenticate" for 127.0.0.1 at 2014-07-18 05:11:30 -0500
+Processing by UsersController#authenticate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZeTIdQ3gjQHVrRrrDVjm6fMjfkIMTSkA7v70mC6XXqg=", "username_or_email"=>"junkee", "login_password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'junkee' LIMIT 1
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-07-18 05:11:30 -0500
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:30 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:11:30 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:11:30 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:11:30 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:11:30 -0500
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:11:30 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:30 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:30 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:30 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:30 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:30 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:30 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:11:30 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:11:30 -0500
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2014-07-18 05:12:14 -0500
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:12:14 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:12:14 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:12:14 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:12:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:12:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:12:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:12:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:12:14 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:12:14 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:12:14 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:12:14 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:12:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:12:14 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:12:14 -0500
+
+
+Started GET "/login/new" for 127.0.0.1 at 2014-07-18 05:12:19 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login/new" for 127.0.0.1 at 2014-07-18 05:16:29 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:16:29 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:16:29 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:16:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:16:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:16:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:16:29 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:16:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:16:29 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:16:29 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:16:29 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:16:29 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:16:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:16:29 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:16:29 -0500
+
+
+Started POST "/user" for 127.0.0.1 at 2014-07-18 05:16:46 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZeTIdQ3gjQHVrRrrDVjm6fMjfkIMTSkA7v70mC6XXqg=", "user"=>{"name"=>"roopku", "email"=>"roopku", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Signup"}
+Unpermitted parameters: password_confirmation
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."name" = 'roopku' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'roopku' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered users/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 29ms (Views: 12.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:16:46 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:16:46 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:16:46 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:16:46 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:16:46 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:16:46 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:16:46 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:16:46 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:16:46 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:16:46 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:16:46 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:16:46 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:16:46 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:16:46 -0500
+
+
+Started POST "/user" for 127.0.0.1 at 2014-07-18 05:17:27 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZeTIdQ3gjQHVrRrrDVjm6fMjfkIMTSkA7v70mC6XXqg=", "user"=>{"name"=>"roopku", "email"=>"k@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Signup"}
+Unpermitted parameters: password_confirmation
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."name" = 'roopku' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'k@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-07-18 10:17:27.140502"], ["email", "k@gmail.com"], ["name", "roopku"], ["password", "roopku"], ["updated_at", "2014-07-18 10:17:27.140502"]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-07-18 05:17:27 -0500
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:17:27 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:17:27 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:17:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:17:27 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:17:27 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:17:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:17:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:17:27 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:17:27 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:17:27 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:17:27 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:17:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:17:27 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:17:27 -0500
+
+
+Started POST "/authenticate" for 127.0.0.1 at 2014-07-18 05:17:54 -0500
+Processing by UsersController#authenticate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZeTIdQ3gjQHVrRrrDVjm6fMjfkIMTSkA7v70mC6XXqg=", "username_or_email"=>"roopku", "login_password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'roopku' LIMIT 1
+Redirected to http://localhost:3000/login/25/index
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:17:54 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:17:54 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:17:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:17:55 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:17:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:17:55 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:17:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:17:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:17:55 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:17:55 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:17:55 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:17:55 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:17:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:17:55 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:17:55 -0500
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-07-18 05:17:58 -0500
+Processing by ProductsController#profile as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 25]]
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "orders"."p_id" FROM "orders"  WHERE "orders"."user_id" = 25[0m
+  Rendered products/profile.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:18:01 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/order/1" for 127.0.0.1 at 2014-07-18 05:18:03 -0500
+Processing by OrdersController#create as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT "orders".* FROM "orders"  WHERE "orders"."user_id" = 25[0m
+  Rendered orders/create.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/insert" for 127.0.0.1 at 2014-07-18 05:18:23 -0500
+Processing by OrdersController#insert as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZeTIdQ3gjQHVrRrrDVjm6fMjfkIMTSkA7v70mC6XXqg=", "order"=>{"ph_no"=>"9666316356", "adress"=>"delhi Store"}, "group3"=>"sss", "group2"=>"on", "commit"=>"Commit Your Order"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "orders" ("adress", "created_at", "p_id", "ph_no", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["adress", "delhi Store"], ["created_at", "2014-07-18 10:18:23.666762"], ["p_id", 1], ["ph_no", 9666316356], ["updated_at", "2014-07-18 10:18:23.666762"], ["user_id", 25]]
+  [1m[35m (0.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/kart/40
+Completed 302 Found in 3ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/kart/40" for 127.0.0.1 at 2014-07-18 05:18:23 -0500
+Processing by OrdersController#order_info as HTML
+  Parameters: {"id"=>"40"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1  [["id", 40]]
+  Rendered orders/order_info.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:18:23 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:18:23 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:18:23 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:23 -0500
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:18:23 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:18:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:23 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:23 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:23 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:23 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:23 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:18:23 -0500
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:18:25 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-07-18 05:18:26 -0500
+Processing by ProductsController#profile as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 25]]
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "orders"."p_id" FROM "orders"  WHERE "orders"."user_id" = 25[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered products/profile.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:18:28 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-07-18 05:18:30 -0500
+Processing by ProductsController#profile as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 25]]
+  [1m[36m (0.2ms)[0m  [1mSELECT DISTINCT "orders"."p_id" FROM "orders"  WHERE "orders"."user_id" = 25[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered products/profile.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:18:31 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-07-18 05:18:32 -0500
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/authenticate" for 127.0.0.1 at 2014-07-18 05:18:37 -0500
+Processing by UsersController#authenticate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZeTIdQ3gjQHVrRrrDVjm6fMjfkIMTSkA7v70mC6XXqg=", "username_or_email"=>"roopku", "login_password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'roopku' LIMIT 1
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-07-18 05:18:37 -0500
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:18:37 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:18:37 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:18:37 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:18:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:37 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:18:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:37 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:37 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:37 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:37 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:37 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:37 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:18:37 -0500
+
+
+Started POST "/authenticate" for 127.0.0.1 at 2014-07-18 05:18:49 -0500
+Processing by UsersController#authenticate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZeTIdQ3gjQHVrRrrDVjm6fMjfkIMTSkA7v70mC6XXqg=", "username_or_email"=>"roopku", "login_password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."name" = 'roopku' LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-07-18 05:18:49 -0500
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:18:49 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:18:49 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:18:49 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:18:49 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:18:49 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:49 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:49 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:49 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:49 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:49 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:49 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:49 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:18:49 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:18:49 -0500
+
+
+Started POST "/authenticate" for 127.0.0.1 at 2014-07-18 05:19:00 -0500
+Processing by UsersController#authenticate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZeTIdQ3gjQHVrRrrDVjm6fMjfkIMTSkA7v70mC6XXqg=", "username_or_email"=>"roopku", "login_password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'roopku' LIMIT 1
+Redirected to http://localhost:3000/login/25/index
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:19:00 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:19:00 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:19:00 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:19:00 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:19:00 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:19:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:19:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:19:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:19:00 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:19:00 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:19:00 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:19:00 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:19:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:19:00 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:19:00 -0500
+
+
+Started GET "/login" for 127.0.0.1 at 2014-07-18 05:21:12 -0500
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login/new" for 127.0.0.1 at 2014-07-18 05:21:15 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2014-07-18 05:21:24 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZeTIdQ3gjQHVrRrrDVjm6fMjfkIMTSkA7v70mC6XXqg=", "user"=>{"name"=>"", "email"=>"as", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Signup"}
+Unpermitted parameters: password_confirmation
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."name" = '' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'as' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered users/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 18ms (Views: 13.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:21:24 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:21:24 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:21:24 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:21:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:24 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:21:24 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:24 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:24 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:24 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:24 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:24 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:24 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:21:24 -0500
+
+
+Started GET "/login" for 127.0.0.1 at 2014-07-18 05:21:34 -0500
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:21:34 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:21:34 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:21:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:34 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:21:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:34 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:21:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:34 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:34 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:34 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:34 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:34 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:21:34 -0500
+
+
+Started POST "/authenticate" for 127.0.0.1 at 2014-07-18 05:21:36 -0500
+Processing by UsersController#authenticate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZeTIdQ3gjQHVrRrrDVjm6fMjfkIMTSkA7v70mC6XXqg=", "username_or_email"=>"roopku", "login_password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'roopku' LIMIT 1
+Redirected to http://localhost:3000/login/25/index
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:21:36 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:21:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:36 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:21:36 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:21:36 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:21:36 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:21:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:36 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:36 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:36 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:36 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:21:36 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:21:36 -0500
+
+
+Started GET "/login" for 127.0.0.1 at 2014-07-18 05:22:11 -0500
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login/new" for 127.0.0.1 at 2014-07-18 05:22:12 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-07-18 05:35:58 -0500
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/authenticate" for 127.0.0.1 at 2014-07-18 05:36:09 -0500
+Processing by UsersController#authenticate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZeTIdQ3gjQHVrRrrDVjm6fMjfkIMTSkA7v70mC6XXqg=", "username_or_email"=>"roopku", "login_password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'roopku' LIMIT 1
+Redirected to http://localhost:3000/login/25/index
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:36:09 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  Rendered products/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:17: syntax error, unexpected '<'
+<% @products.each do |product| 
+ ^
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:17: syntax error, unexpected keyword_do, expecting keyword_end
+<% @products.each do |product| 
+                    ^
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:30: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/products/index.html.erb:17: syntax error, unexpected '<'
+  app/views/products/index.html.erb:17: syntax error, unexpected keyword_do, expecting keyword_end
+  app/views/products/index.html.erb:30: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:36:44 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:36:44 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:36:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:36:44 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:36:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:36:44 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:36:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:36:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:36:44 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:36:44 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:36:44 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:36:44 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:36:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:36:44 -0500
+
+
+Started GET "/images/@s.jpg" for 127.0.0.1 at 2014-07-18 05:36:44 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/@s.jpg"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.2ms)
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:36:44 -0500
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:37:06 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  Rendered products/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:20: syntax error, unexpected '>'
+..."150x150", alt: "Edit Entry")%></td>
+...                               ^
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:21: unknown regexp options - td
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:22: syntax error, unexpected '<'
+  <td width="60%">'.freeze;@outp...
+   ^
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:23: syntax error, unexpected '<'
+...output_buffer.safe_append='/- </td>
+...                               ^
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:24: unknown regexp options - td
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:25: syntax error, unexpected '<'
+</tr>
+ ^
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:29: unknown regexp options - tabl
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:29: unterminated string meets end of file
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:29: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/products/index.html.erb:20: syntax error, unexpected '>'
+  app/views/products/index.html.erb:21: unknown regexp options - td
+  app/views/products/index.html.erb:22: syntax error, unexpected '<'
+  app/views/products/index.html.erb:23: syntax error, unexpected '<'
+  app/views/products/index.html.erb:24: unknown regexp options - td
+  app/views/products/index.html.erb:25: syntax error, unexpected '<'
+  app/views/products/index.html.erb:29: unknown regexp options - tabl
+  app/views/products/index.html.erb:29: unterminated string meets end of file
+  app/views/products/index.html.erb:29: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.4ms)
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:37:44 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:37:44 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:37:44 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:37:44 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:37:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:37:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:37:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:37:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:37:44 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:37:44 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:37:44 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:37:44 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:37:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:37:44 -0500
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2014-07-18 05:37:44 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:37:44 -0500
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:40:41 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  Rendered products/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:20: syntax error, unexpected '>'
+..."150x150", alt: "Edit Entry")%></td>
+...                               ^
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:21: unknown regexp options - td
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:22: syntax error, unexpected '<'
+  <td width="60%">'.freeze;@outp...
+   ^
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:23: syntax error, unexpected '<'
+...output_buffer.safe_append='/- </td>
+...                               ^
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:24: unknown regexp options - td
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:25: syntax error, unexpected '<'
+</tr>
+ ^
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:29: unknown regexp options - tabl
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:29: unterminated string meets end of file
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:29: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/products/index.html.erb:20: syntax error, unexpected '>'
+  app/views/products/index.html.erb:21: unknown regexp options - td
+  app/views/products/index.html.erb:22: syntax error, unexpected '<'
+  app/views/products/index.html.erb:23: syntax error, unexpected '<'
+  app/views/products/index.html.erb:24: unknown regexp options - td
+  app/views/products/index.html.erb:25: syntax error, unexpected '<'
+  app/views/products/index.html.erb:29: unknown regexp options - tabl
+  app/views/products/index.html.erb:29: unterminated string meets end of file
+  app/views/products/index.html.erb:29: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.1ms)
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:41:30 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:30 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:30 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:30 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:30 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:30 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:30 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:30 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:30 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:30 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:30 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:30 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:30 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:30 -0500
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2014-07-18 05:41:30 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:41:30 -0500
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:41:54 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:54 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:54 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:54 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:54 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:54 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:54 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:54 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:54 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:54 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:54 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:41:54 -0500
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2014-07-18 05:41:54 -0500
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:41:56 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:56 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:56 -0500
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:56 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:56 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:56 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:56 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:56 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:56 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:41:56 -0500
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2014-07-18 05:41:56 -0500
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:41:57 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:57 -0500
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:57 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:57 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:57 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:41:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:57 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:57 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:57 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:57 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:41:57 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:41:57 -0500
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2014-07-18 05:41:57 -0500
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:46:12 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  Rendered products/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:29: syntax error, unexpected '<', expecting ')'
+...tput_buffer.append=(image_tag(<%=image);@output_buffer.safe_...
+...                               ^
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:37: syntax error, unexpected keyword_end, expecting ')'
+ end 
+    ^
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:39: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:41: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/products/index.html.erb:29: syntax error, unexpected '<', expecting ')'
+  app/views/products/index.html.erb:37: syntax error, unexpected keyword_end, expecting ')'
+  app/views/products/index.html.erb:39: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/products/index.html.erb:41: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:46:27 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  Rendered products/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:29: syntax error, unexpected '>'
+..."150x150", alt: "Edit Entry")%></td>
+...                               ^
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:30: unknown regexp options - td
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:31: syntax error, unexpected '<'
+  <td width="60%">'.freeze;@outp...
+   ^
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:32: syntax error, unexpected '<'
+...output_buffer.safe_append='/- </td>
+...                               ^
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:33: unknown regexp options - td
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:34: syntax error, unexpected '<'
+</tr>
+ ^
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:38: unknown regexp options - tabl
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:38: unterminated string meets end of file
+/Users/stamanampudi/Documents/untitled folder/sell_shop_assignment/app/views/products/index.html.erb:38: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/products/index.html.erb:29: syntax error, unexpected '>'
+  app/views/products/index.html.erb:30: unknown regexp options - td
+  app/views/products/index.html.erb:31: syntax error, unexpected '<'
+  app/views/products/index.html.erb:32: syntax error, unexpected '<'
+  app/views/products/index.html.erb:33: unknown regexp options - td
+  app/views/products/index.html.erb:34: syntax error, unexpected '<'
+  app/views/products/index.html.erb:38: unknown regexp options - tabl
+  app/views/products/index.html.erb:38: unterminated string meets end of file
+  app/views/products/index.html.erb:38: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.8ms)
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+
+Started GET "/login/25/3.jpg" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+ActionController::RoutingError (No route matches [GET] "/login/25/3.jpg"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.5ms)
+
+
+Started GET "/login/25/2.jpg" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+ActionController::RoutingError (No route matches [GET] "/login/25/2.jpg"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.5ms)
+
+
+Started GET "/login/25/4.jpg" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+ActionController::RoutingError (No route matches [GET] "/login/25/4.jpg"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.7ms)
+
+
+Started GET "/login/25/1.jpg" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+ActionController::RoutingError (No route matches [GET] "/login/25/1.jpg"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.7ms)
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:49:04 -0500
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:51:11 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:51:11 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:51:11 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:51:11 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:51:11 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:51:11 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:51:11 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:51:11 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:51:11 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:51:11 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:51:11 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:51:11 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:51:11 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:51:11 -0500
+
+
+Started GET "/login/25/1.gif" for 127.0.0.1 at 2014-07-18 05:51:11 -0500
+
+ActionController::RoutingError (No route matches [GET] "/login/25/1.gif"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.6ms)
+
+
+Started GET "/login/25/1.gif" for 127.0.0.1 at 2014-07-18 05:51:11 -0500
+
+ActionController::RoutingError (No route matches [GET] "/login/25/1.gif"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.4ms)
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:51:11 -0500
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:51:37 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:51:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:51:37 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:51:37 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:51:37 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:51:37 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:51:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:51:37 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:51:37 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:51:37 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:51:37 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:51:37 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:51:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:51:37 -0500
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2014-07-18 05:51:37 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:51:37 -0500
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:54:24 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:54:24 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:54:24 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:54:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:54:24 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:54:24 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:54:24 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:54:24 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:54:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:54:24 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:54:24 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:54:24 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:54:24 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:54:24 -0500
+
+
+Started GET "/assets/2.gif" for 127.0.0.1 at 2014-07-18 05:54:25 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/2.gif"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.1ms)
+
+
+Started GET "/assets/3.gif" for 127.0.0.1 at 2014-07-18 05:54:25 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/3.gif"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.2ms)
+
+
+Started GET "/assets/1.gif" for 127.0.0.1 at 2014-07-18 05:54:25 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/1.gif"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.8ms)
+
+
+Started GET "/assets/4.gif" for 127.0.0.1 at 2014-07-18 05:54:25 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/4.gif"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/stamanampudi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/stamanampudi/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.6ms)
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:54:25 -0500
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:55:09 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:55:09 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:55:09 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:55:09 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:55:09 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:55:09 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:55:09 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:55:09 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:55:09 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:55:09 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:55:09 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:55:09 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:55:09 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:55:09 -0500
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2014-07-18 05:55:09 -0500
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2014-07-18 05:55:09 -0500
+
+
+Started GET "/assets/4.jpg" for 127.0.0.1 at 2014-07-18 05:55:10 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:55:10 -0500
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2014-07-18 05:55:10 -0500
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/assets/4.jpg" for 127.0.0.1 at 2014-07-18 05:55:31 -0500
+
+
+Started GET "/login/25/index" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/assets/images10.jpg" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/assets/4.jpg" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2014-07-18 05:56:22 -0500
+
+
+Started GET "/login" for 127.0.0.1 at 2014-07-18 06:19:18 -0500
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)

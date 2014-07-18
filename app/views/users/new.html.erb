@@ -14,7 +14,7 @@ Sign Up
     </ul>
 <% end %>
 
-<table  id="customers1" style="width:400px">
+<!--<table  id="customers1" style="width:400px">
 
 <div class="Sign_Form">
 <%= form_for  :user, :url => {:controller => 'users', :action => 'create'}  do |f| %>
@@ -47,4 +47,17 @@ Sign Up
 <% end %>
 </div>
 
-</table>
+</table>-->
+
+<div class="Sign_Form" id="customers1" style="width:600px">
+<%= form_for  :user, :url => {:controller => 'users', :action => 'create'}  do |f| %>
+<p> Username:</br> <%= f.text_field :name%> </p>
+<p> Email:</br> <%= f.text_field :email%> </p>
+<p> Password:</br> <%= f.password_field :password%></p>
+<p> Password Confirmation:</br> <%= f.password_field :password_confirmation%> </p>
+<%= f.submit "Signup" %>
+<% end %>
+</div>
+
+
+

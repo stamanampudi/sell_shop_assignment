@@ -8,20 +8,22 @@ Products Page
 
 <table id=customers style="width:1000px">
 <tr>
+   <th colspan="1">Product Image</th>
    <th colspan="1"> Product Title </th>
    <th colspan="1" align="center"> Product Description </th>
    <th colspan ="1">Cost</th>
 </tr>
 <% @var=40000 %>
-
+<% @s=1%>
 <% @products.each do |product| %>
 
-</tr>
+  <td width="10%"><img src="/assets/<%=@s%>.jpg" alt="Smiley face" width="100" height="100"></td>
   <td width="20%"> <%= product.title %> </td>
   <td width="60%"><%= product.p_information %></td>		
   <td width= "10%"><%=@var%>/- </td>
   <td width="10%"><%= link_to "Buy",order_page_path(product)%></td>
 </tr>
 <% @var= @var-10000%>
+<% @s=@s+1 %>
 <% end %>
 </table>
